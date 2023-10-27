@@ -1,0 +1,80 @@
+
+*{
+    padding: 0;
+    margin: 0;
+}
+html body{
+    width: 100%;
+    height: 100%;
+    font-family: Assistant,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+}
+header{
+    position: sticky;
+    top: 0;
+    background: white;
+    box-shadow: rgba(0,0,0,0.15) 1.95px 1.95px 2.6x;
+}
+
+.headerContainer{
+    max-width: 50vm;
+    margin: auto;
+  
+    height: 70px;
+    line-height: 70px;
+}
+.rightBox{
+    display: flex;
+    margin: 12px;
+}
+@media(max-width:1400px){
+    header{
+        height: 122px;
+    }
+    nav{
+        flex-direction: column;
+        align-items: center;
+    }
+    .right{
+     flex-direction: column;
+    }
+    .rightBox{
+        display: flex;
+        margin: 12px;
+    }
+}
+
+img{
+    padding: 0;
+    margin: 0;
+    width: 130px;
+    height: 70px;
+}
+.container{
+ margin: 13px 0px;
+    padding: 0 10vm;
+    margin: auto;
+}
+nav{
+    font-size: 12px;
+}
+nav ul li{
+    list-style: none;
+    padding: 0 12px;
+}
+.section1{
+    background: rgb(245, 242, 242);
+    padding: 50px;
+}
+.search{
+    width: 34vw;
+    padding: 7px 17px;
+    border: 0.5px solid gray;
+    border-radius: 5px;
+    background: rgb(247, 240, 240);
+}
+
+
+section div a img{
+    width: 100%;
+    height: 280px;
+}
